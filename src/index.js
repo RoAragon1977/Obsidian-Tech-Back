@@ -8,7 +8,7 @@ import productoRouter from './routers/producto.routes';
 import userRouter from './routers/user.routes';
 
 const app = express();
-const PORT = process.env.port || 3030;
+const PORT = process.env.PORT || 3030;
 app.use(morgan('start'));
 app.use(express.json());
 app.use(cors());
