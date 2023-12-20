@@ -3,10 +3,10 @@
   "name": "bd",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "build": "npm install"
+    "start": "nodemon src/index.js --exec babel-node",
+    "build": "babel src/index.js -d dist"
   },
   "keywords": [],
   "author": "",
