@@ -8,6 +8,9 @@
     "start": "nodemon src/index.js --exec babel-node",
     "build": "babel src/index.js -d dist"
   },
+  "engines": {
+    "node": ">=18.16.0 <19.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
