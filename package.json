@@ -5,8 +5,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node",
-    "build": "babel src/index.js -d dist"
+    "start": "nodemon --exec babel-node",
+    "build": "babel -d dist"
   },
   "keywords": [],
   "author": "",
